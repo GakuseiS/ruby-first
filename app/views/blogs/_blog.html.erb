@@ -9,4 +9,8 @@
     <%= blog.body %>
   </p>
 
+  <p>
+    <%= link_to blog.status, toggle_status_blog_path(blog) %>
+  </p>
+
 </div>
