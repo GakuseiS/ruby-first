@@ -1,6 +1,4 @@
-<% if current_user %>
-  <h1>Hi, <%= current_user.first_name %></h1>
-<% end %>
+<h1>Hi, <%= current_user.first_name %></h1>
 
 <h1>Blog posts</h1>
 <%= @posts.inspect %>
